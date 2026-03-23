@@ -1,0 +1,9 @@
+import { neon } from '@neondatabase/serverless';
+
+// Ensure the DATABASE_URL environment variable is available
+if (!process.env.DATABASE_URL) {
+  throw new Error('DATABASE_URL environment variable is not defined');
+}
+
+// Initialize the neon client with the database connection string
+export const sql = neon(process.env.DATABASE_URL);
