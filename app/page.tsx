@@ -109,7 +109,7 @@ export default function Home() {
       </div>
 
       <footer className="footer" style={{ position: 'fixed', bottom: 0, left: 0, width: '100%', textAlign: 'center', padding: '1.5rem', color: '#888', background: 'rgba(0, 0, 0, 0.5)', backdropFilter: 'blur(5px)' }}>
-        Created by <a href="https://instagram.com/basantakumar_mahanta" target="_blank" rel="noopener noreferrer" style={{ color: '#888', textDecoration: 'underline', fontWeight: 600 }}>BasantaKumar</a>
+        Made with ❤️ by <a href="https://instagram.com/basantakumar_mahanta" target="_blank" rel="noopener noreferrer" style={{ color: '#888', textDecoration: 'underline', fontWeight: 600 }}>BasantaKumar</a>
       </footer>
     </main>
   );
